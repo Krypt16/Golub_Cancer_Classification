@@ -1,19 +1,18 @@
-name: golub_replication
+name: Golub_Cancer_Classification1
 channels:
   - defaults
 dependencies:
   - aom=3.12.1=ha237518_0
   - blas=1.0=openblas
-  - bottleneck=1.4.2=py310h03d0aa3_1
   - bzip2=1.0.8=h80987f9_6
   - ca-certificates=2025.12.2=hca03da5_0
   - cairo=1.18.4=h191e429_0
-  - contourpy=1.3.1=py310h48ca7d4_0
-  - cycler=0.12.1=py310hca03da5_0
+  - contourpy=1.3.3=py312h20e30b6_0
+  - cycler=0.12.1=py312hca03da5_0
   - dav1d=1.2.1=h80987f9_0
   - expat=2.7.4=h50f4ffc_0
   - fontconfig=2.15.0=h29935d0_0
-  - fonttools=4.61.0=py310haa24f5a_0
+  - fonttools=4.61.0=py312haa24f5a_0
   - freetype=2.14.1=h7cdc921_0
   - fribidi=1.0.16=h8859324_0
   - gettext=0.25.1=h50c8ec2_0
@@ -21,9 +20,9 @@ dependencies:
   - graphite2=1.3.14=hc377ac9_1
   - harfbuzz=12.3.0=h9837a22_1
   - icu=73.1=h313beb8_0
-  - joblib=1.5.3=py310hca03da5_0
+  - joblib=1.5.3=py312hca03da5_0
   - jpeg=9f=h2f69dba_0
-  - kiwisolver=1.4.9=py310haeee614_0
+  - kiwisolver=1.4.9=py312haeee614_0
   - lcms2=2.17=h7418793_0
   - lerc=4.0.0=h313beb8_0
   - libasprintf=0.25.1=h7b764f5_0
@@ -51,40 +50,37 @@ dependencies:
   - libzlib=1.3.1=h5f15de7_0
   - llvm-openmp=21.1.8=hfab7639_0
   - lz4-c=1.9.4=h313beb8_1
-  - matplotlib=3.10.8=py310hca03da5_0
-  - matplotlib-base=3.10.8=py310haa222d5_0
+  - matplotlib=3.10.8=py312hca03da5_0
+  - matplotlib-base=3.10.8=py312haa222d5_0
   - ncurses=6.5=hee39554_0
-  - numexpr=2.14.1=py310h5fbe615_0
-  - numpy=2.2.5=py310h40d09ce_2
-  - numpy-base=2.2.5=py310h855c928_2
+  - numpy=2.4.2=py312h4bb6f22_0
+  - numpy-base=2.4.2=py312h23175f9_0
   - openssl=3.5.5=ha0b305a_0
-  - packaging=25.0=py310hca03da5_1
-  - pandas=2.3.3=py310h3f644e9_1
+  - packaging=25.0=py312hca03da5_1
+  - pandas=3.0.0=py312h3f644e9_0
   - pcre2=10.46=h1dacb4a_0
-  - pillow=12.1.1=py310h702022c_0
+  - pillow=12.1.1=py312h702022c_0
   - pip=26.0.1=pyhc872135_0
   - pixman=0.46.4=h09dc60e_0
   - pthread-stubs=0.3=h1a28f6b_1
-  - pyparsing=3.2.5=py310hca03da5_0
-  - python=3.10.19=hf701271_0
-  - python-dateutil=2.9.0post0=py310hca03da5_2
-  - python-tzdata=2025.3=pyhd3eb1b0_0
-  - pytz=2026.1.post1=py310hca03da5_0
+  - pyparsing=3.2.5=py312hca03da5_0
+  - python=3.12.12=h2bfc596_1
+  - python-dateutil=2.9.0post0=py312hca03da5_2
   - readline=8.3=h0b18652_0
-  - scikit-learn=1.7.2=py310h3f644e9_1
-  - scipy=1.15.3=py310h132fc3c_1
-  - seaborn=0.13.2=py310hca03da5_3
-  - setuptools=80.10.2=py310hca03da5_0
-  - six=1.17.0=py310hca03da5_0
+  - scikit-learn=1.8.0=py312h003a250_0
+  - scipy=1.17.0=py312h079a9ef_0
+  - seaborn=0.13.2=py312hca03da5_3
+  - setuptools=80.10.2=py312hca03da5_0
+  - six=1.17.0=py312hca03da5_0
   - sqlite=3.51.1=h67002bf_1
-  - threadpoolctl=3.5.0=py310h7eb115d_1
+  - threadpoolctl=3.5.0=py312h7eb115d_1
   - tk=8.6.15=hcd8a7d5_0
-  - tornado=6.5.4=py310haa24f5a_0
+  - tornado=6.5.4=py312haa24f5a_0
   - tzdata=2026a=he532380_0
-  - wheel=0.46.3=py310hca03da5_0
+  - wheel=0.46.3=py312hca03da5_0
   - xorg-libxau=1.0.12=h3fc13f7_0
   - xorg-libxdmcp=1.1.5=h3fc13f7_0
   - xz=5.8.2=h8bbcb1d_0
   - zlib=1.3.1=h5f15de7_0
   - zstd=1.5.7=h817c040_0
-prefix: /opt/miniconda3/envs/golub_replication
+prefix: /opt/miniconda3/envs/Golub_Cancer_Classification1
